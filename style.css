@@ -48,7 +48,7 @@ body {
 
 .typo {
   position: relative;
-  inset-block-start: -35%;
+  inset-block-start: 34%;
   mix-blend-mode: hard-light;
   inline-size: 200px;
   filter: drop-shadow(0px 0px 10px 10px #e91e63);
@@ -218,28 +218,28 @@ button:hover {
 @keyframes horiz {
   0%,
   100% {
-    background-image: url("img2.JPG");
+    background-image: url("img9.JPG");
   }
   20% {
-    background-image: url("img2.jpg");
+    background-image: url("img9.JPG");
   }
   30% {
-    background-image: url("img4.JPG");
+    background-image: url("img9.JPG");
   }
   40% {
-    background-image: url("img4.JPG");
+    background-image: url("img9.JPG");
   }
   50% {
-    background-image: url("img5.jpg");
+    background-image: url("img9.JPG");
   }
   60% {
-    background-image: url("img6.jpg");
+    background-image: url("img9.JPG");
   }
   70% {
-    background-image: url("img7.jpg");
+    background-image: url("img9.JPG");
   }
   80% {
-    background-image: url("img8.JPG");
+    background-image: url("img9.JPG");
   }
   90% {
     background-image: url("img9.JPG");
@@ -249,31 +249,31 @@ button:hover {
 @keyframes color {
   0%,
   100% {
-    background-image: url("img10.JPG");
+    background-image: url("img9.JPG");
   }
   20% {
-    background-image: url("img11.JPG");
+    background-image: url("img9.JPG");
   }
   30% {
-    background-image: url("img2.JPG");
+    background-image: url("img9.JPG");
   }
   40% {
-    background-image: url("img2.JPG");
+    background-image: url("img9.JPG");
   }
   50% {
-    background-image: url("img4.JPG");
+    background-image: url("img9.JPG");
   }
   60% {
-    background-image: url("img5.jpg");
+    background-image: url("img9.JPG");
   }
   70% {
-    background-image: url("img4.JPG");
+    background-image: url("img9.JPG");
   }
   80% {
-    background-image: url("img4.jpg");
+    background-image: url("img9.JPG");
   }
   90% {
-    background-image: url("img7.jpg");
+    background-image: url("img9.JPG");
   }
 }
 
@@ -326,3 +326,22 @@ button:hover {
     font-weight: 700;
   }
 }
+@media (max-width: 350px) {
+  .section {
+    font-size: 1.5rem; /* Smaller font size */
+  }
+
+  .couple-name {
+    font-size: 6vw; /* Responsive size */
+    padding-block-start: 5vh; /* Adjusted padding */
+  }
+
+  .content {
+    padding: 4vw; /* Responsive padding */
+  }
+
+  #section0 {
+    background-size: cover;
+    width: full screen;
+    height: fit-content;
+  }
